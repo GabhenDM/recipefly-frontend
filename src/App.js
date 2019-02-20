@@ -7,6 +7,7 @@ import Landing from "./components/landing/Landing";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register";
 import Browse from "./components/browse/Browse";
+import MyRecipes from "./components/my-recipes/MyRecipes";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/browse" component={Browse} />
+          <Route exact path="/my-recipes" component={MyRecipes} />
           <Footer />
         </div>
       </Router>

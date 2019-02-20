@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Jumbotron() {
   return (
@@ -10,9 +11,11 @@ export default function Jumbotron() {
         </p>
         <hr class="my-4" />
         <p>Sign up today and start cooking!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">
-          Sign-up
-        </a>
+
+        <Link className="btn btn-primary btn-lg" to="/register">
+            Sign Up
+        </Link>
+
       </div>
     </div>
   );
