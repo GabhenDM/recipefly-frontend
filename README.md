@@ -6,10 +6,9 @@ This project is designed to be a portfolio project/study example, utilizing Reac
 
 ## Back-End
 
-- **ExpressJS** for Routing and Server
-- **Winston** For Logging Middleware
-- **dotenv** For Config files
-- **Unit Testing** - TBD
+- **Flask** for Routing and Server
+- **PyJWT** JWT Token based Authentication
+- **Flask RestPlus** - Extended REST API Functionality, Swagger Interface
 
 ## Front-End
 
